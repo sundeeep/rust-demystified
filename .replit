@@ -1,0 +1,5 @@
+modules = ["rust-stable", "nodejs-22"]
+run = "node ./src/index.js"
+
+[deployment]
+run = ["sh", "-c", "node ./src/index.js"]
