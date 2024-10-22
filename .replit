@@ -1,5 +1,10 @@
 modules = ["rust-stable", "nodejs-22"]
-run = "node ./src/index.js"
+run = "cargo run"
 
 [deployment]
-run = ["sh", "-c", "node ./src/index.js"]
+run = ["sh", "-c", "cargo run"]
+
+[[ports]]
+localPort = 8000
+externalPort = 8000
+exposeLocalhost = true
