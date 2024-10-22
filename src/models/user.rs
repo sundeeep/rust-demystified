@@ -1,6 +1,6 @@
 use serde::{Serialize, Deserialize};
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 pub enum UserRole{
     ADMIN,
     USER,
@@ -10,7 +10,7 @@ pub enum UserRole{
     COO
 }
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 pub struct User {
     pub username: String,
     pub display_name: String,

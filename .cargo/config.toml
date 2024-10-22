@@ -1,0 +1,4 @@
+[watch]
+watch = ["src"]
+ignore = ["target"]
+delay = 500  # milliseconds

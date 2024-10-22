@@ -18,7 +18,9 @@ async fn main() -> Result<()> {
     const PORT: u16 = 8000;
     const LOCALHOST: &str = "127.0.0.1";
 
+    println!();
     welcome();
+    println!("HTTP Server is running on port: {}", PORT);
     
     HttpServer::new(|| App::new().service(greet))
         .bind((LOCALHOST, PORT))? // returns "Result" => ?

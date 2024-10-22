@@ -9,5 +9,5 @@ pub fn welcome() {
     role: UserRole::ADMIN
   };
   
-  println!("Hello, {:?}", user.email);
+  println!("Hello, {}", user.email);
 }
