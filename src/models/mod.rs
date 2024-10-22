@@ -1,1 +1,1 @@
-pub mod User;
+pub mod user;

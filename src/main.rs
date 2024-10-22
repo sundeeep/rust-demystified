@@ -2,6 +2,7 @@
 use actix_web::{get, App, HttpServer, Responder};
 use std::io::Result;
 
+mod models;
 mod utils;
 use utils::greet::welcome;
 
