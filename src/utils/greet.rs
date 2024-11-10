@@ -1,6 +1,6 @@
 use crate::models::user::{User, UserRole};
 
-pub fn welcome() {
+fn welcome() {
   let user: User = User{
     username: "sundeeep".to_string(),
     display_name: "Sandeeep Dasari".to_string(),
