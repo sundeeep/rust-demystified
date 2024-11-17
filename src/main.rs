@@ -1,4 +1,11 @@
+mod data_types;
+use data_types::data_types;
+
+fn init() {
+    data_types();
+}
 
 fn main() {
-    print!("Hello from Sundeep, learning Rust!");
+    println!("Hello from Sundeep, learning Rust!");
+    init();
 }
