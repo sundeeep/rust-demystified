@@ -1,4 +1,4 @@
-mod data_types;
+pub mod data_types;
 use data_types::data_types;
 
 fn init() {
